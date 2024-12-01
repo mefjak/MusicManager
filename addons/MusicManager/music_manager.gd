@@ -141,7 +141,7 @@ func _on_stop_music() -> void:
 	if not song_timer.is_stopped():
 		song_timer.stop()
 		
-	current_song = null
+	#current_song = null
 
 
 func _on_pause_music() -> void:
